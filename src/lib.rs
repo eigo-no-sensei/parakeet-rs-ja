@@ -53,6 +53,8 @@ mod model;
 mod model_eou;
 mod model_nemotron;
 mod model_tdt;
+mod decoder_tdt_ja;
+mod parakeet_ja;
 mod model_unified;
 mod nemotron;
 mod parakeet;
