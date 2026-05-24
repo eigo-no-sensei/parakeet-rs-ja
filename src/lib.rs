@@ -53,6 +53,8 @@ mod model;
 mod model_eou;
 mod model_nemotron;
 mod model_tdt;
+mod decoder_tdt_ja;
+mod parakeet_ja;
 mod model_unified;
 mod nemotron;
 mod parakeet;
@@ -77,6 +79,7 @@ pub use error::{Error, Result};
 pub use execution::{ExecutionProvider, ModelConfig as ExecutionConfig};
 pub use parakeet::Parakeet;
 pub use parakeet_tdt::ParakeetTDT;
+pub use parakeet_ja::ParakeetJA;
 pub use timestamps::TimestampMode;
 pub use transcriber::*;
 
