@@ -83,7 +83,7 @@ impl ParakeetJA {
         // TDT variant: 128 mel features, 16 kHz, 10 ms frame shift.
         let preprocessor_config = PreprocessorConfig {
             feature_extractor_type: "ParakeetFeatureExtractor".to_string(),
-            feature_size: 128,
+            feature_size: 80,
             hop_length: 160,
             n_fft: 512,
             padding_side: "right".to_string(),
