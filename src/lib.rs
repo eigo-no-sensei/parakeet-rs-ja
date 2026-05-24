@@ -79,6 +79,7 @@ pub use error::{Error, Result};
 pub use execution::{ExecutionProvider, ModelConfig as ExecutionConfig};
 pub use parakeet::Parakeet;
 pub use parakeet_tdt::ParakeetTDT;
+pub use parakeet_ja::ParakeetJA;
 pub use timestamps::TimestampMode;
 pub use transcriber::*;
 
